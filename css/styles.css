@@ -1,0 +1,53 @@
+.header {
+  text-align: center;
+  color:lightpink;
+}
+
+body {
+  background-image: url("../image/pink.jpg");
+  background-repeat: no-repeat;
+  background-attached: fixed;
+
+}
+
+#content1 {
+  font-size: 20px;
+  border: 2px solid #FF2857;
+  width: 400px;
+  float: left;
+  margin-top: 30%;
+  margin-left: 30px;
+
+}
+
+#content2 {
+  font-size: 20px;
+  border: 2px solid #FF2857;
+  width: 400px;
+  float: left;
+  margin-top: 30%;
+  margin-left: 30px
+}
+
+#content3 {
+  font-size: 20px;
+  border: 2px solid #FF2857;
+  width: 400px;
+  float: left;
+  margin-top: 30%;
+  margin-left: 30px;
+}
+
+.links{
+  margin-left: 600px;
+
+}
+img{
+  margin: auto;
+  position: fixed;
+}
+
+}
+h1 {
+  color: black;
+}
