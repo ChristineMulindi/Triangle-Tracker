@@ -1,53 +1,52 @@
 .header {
   text-align: center;
-  color:lightpink;
+  color: black;
 }
 
 body {
   background-image: url("../image/pink.jpg");
   background-repeat: no-repeat;
   background-attached: fixed;
+  background-position: 20% 100%;
+}
+
+#column1 {
+  float: left;
+  width: 31%;
+  margin : 20px 1.15%;
+  height :160px;
+  background-color:#FF96B3;
+}
+
+#column2 {
+  float: left;
+  width: 31%;
+  margin : 20px 1.15%;
+  height :160px;
+  background-color:#E888D2;
 
 }
 
-#content1 {
-  font-size: 20px;
-  border: 2px solid #FF2857;
-  width: 400px;
+#column3 {
   float: left;
-  margin-top: 30%;
+  width: 31%;
+  margin : 20px 1.15%;
+  height :160px;
+  background-color:#F1A2FF;
+
+}
+
+a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 75px;
   margin-left: 30px;
-
 }
 
-#content2 {
-  font-size: 20px;
-  border: 2px solid #FF2857;
-  width: 400px;
-  float: left;
-  margin-top: 30%;
-  margin-left: 30px
-}
-
-#content3 {
-  font-size: 20px;
-  border: 2px solid #FF2857;
-  width: 400px;
-  float: left;
-  margin-top: 30%;
-  margin-left: 30px;
-}
-
-.links{
-  margin-left: 600px;
-
-}
-img{
+img {
   margin: auto;
   position: fixed;
 }
-
-}
-h1 {
-  color: black;
 }
