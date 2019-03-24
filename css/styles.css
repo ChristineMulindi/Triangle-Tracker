@@ -33,20 +33,22 @@ html, body {
 }
 
 .content h1 {
- font-family: 'Raleway'sans-serif;
- color: #B20921;
- text-shadow: 0px 0px 300px #000;
- font-size: 500%;
+  font-family: 'Raleway'sans-serif;
+  color: #B20921;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
 }
 
 .button {
- border: 3px solid #BD097E;
- border-radius: 9px;
- font-family: 'Oswald'sans-serif;
- color: #9800A6;
- font-size: 135%;
- padding: 10px 20px;
- text-decoration: none;
+  background-color: #FFD90D;
+  border: 3px solid #BD097E;
+  border-radius: 9px;
+  font-family: 'Oswald'sans-serif;
+  color: #9800A6;
+  font-size: 135%;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -54,10 +56,20 @@ html, body {
   border: #4709B2 solid 3px;
 }
 
+.form {
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 130%;
+  color: #B20921;
+  padding: 130px;
+}
+
 @media screen and (max-width : 768px) {
   .content h1 {
     font-size: 250%;
   }
+
   .button {
     font-size: 110%;
     padding: 7px 15px;
