@@ -74,11 +74,19 @@ html, body {
 
 @media screen and (max-width : 768px) {
   .content h1 {
-    font-size: 250%;
+    font-size: 400%;
+  }
+
+  .content {
+    font-size: 300%
   }
 
   .button {
-    font-size: 110%;
+    font-size: 250%;
     padding: 7px 15px;
+  }
+
+  .form {
+    font-size: 300%
   }
 }
