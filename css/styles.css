@@ -29,14 +29,20 @@ html, body {
 .content {
   max-width: 500px;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .content h1 {
   font-family: 'Raleway'sans-serif;
   color: #B20921;
   text-shadow: 0px 0px 300px #000;
-  font-size: 500%;
+  font-size: 320%;
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
 }
 
 .button {
@@ -45,10 +51,11 @@ html, body {
   border-radius: 9px;
   font-family: 'Oswald'sans-serif;
   color: #9800A6;
-  font-size: 135%;
+  font-size: 125%;
   padding: 10px 20px;
   display: inline-block;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
@@ -60,9 +67,9 @@ html, body {
   max-width: 200px;
   margin: 0 auto;
   text-align: center;
-  font-size: 130%;
+  font-size: 150%;
   color: #B20921;
-  padding: 130px;
+  padding: 120px;
 }
 
 @media screen and (max-width : 768px) {
