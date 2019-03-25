@@ -101,7 +101,8 @@ html, body {
   }
 
   .content {
-    font-size: 300%
+    font-size: 300%;
+    text-align:center;
   }
 
   .button {
@@ -110,6 +111,6 @@ html, body {
   }
 
   .form {
-    font-size: 300%
+    font-size: 300%;
   }
 }
