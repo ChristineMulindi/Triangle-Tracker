@@ -36,3 +36,6 @@ function triangle() {
     output.textContent = "INVALID MEASUREMENTS!!";
   };
 }
+function reset() {
+    document.getElementById('form').reset();
+  }
