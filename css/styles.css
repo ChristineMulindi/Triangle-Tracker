@@ -72,6 +72,29 @@ html, body {
   padding: 120px;
 }
 
+.form-wrapper {
+  background-color: #FFD90D;
+  border: 3px solid #BD097E;
+  border-radius: 9px;
+  font-family: 'Oswald'sans-serif;
+  color: #9800A6;
+  font-size: 50%;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.form-wrapper:hover {
+  color: #7C09BD;
+  border: #4709B2 solid 3px;
+}
+
+
+#reset {
+  font-size: 50%;
+}
+
 @media screen and (max-width : 768px) {
   .content h1 {
     font-size: 400%;
