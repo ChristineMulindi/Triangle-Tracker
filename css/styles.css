@@ -91,10 +91,12 @@ html, body {
 }
 
 
-#reset {
+#form12 {
   font-size: 50%;
 }
-
+#form1{
+  border: 2px solid white;
+}
 @media screen and (max-width : 768px) {
   .content h1 {
     font-size: 400%;
@@ -112,5 +114,6 @@ html, body {
 
   .form {
     font-size: 300%;
+    text-align: center;
   }
 }

@@ -4,15 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Triangle Tracker</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <script src="./js/scripts.js"></script>
   <div class="intro">
     <div class="form">
-      <form id="form">
+      <form id="form1" action="track">
         <h2> TRIANGLE TRACKER </h2>
         <p>
           Input Length One : <input type="text" id="length1"></input>
@@ -21,15 +21,17 @@
           <br>
           Input Length Three: <input type="text" id="length3"></input>
           <br>
-
+          <p id="output"></p>
           <div class="form-wrapper" <button type="button" onclick="triangle()">CLICK TO CHECK OUT</button>
           </div>
           <br>
-          <button id="reset" class="button" type="button" onclick="reset()">RESET</button>
+
+          <button id="form12" class="button" type="button" onclick="resetForm()">RESET</button>
 
         </p>
+
       </form>
-      <p id="output"></p>
+
 
     </div>
   </div>
