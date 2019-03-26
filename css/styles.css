@@ -99,21 +99,21 @@ html, body {
 }
 @media screen and (max-width : 768px) {
   .content h1 {
-    font-size: 400%;
+    font-size: 150%;
   }
 
   .content {
-    font-size: 300%;
+    font-size: 150%;
     text-align:center;
   }
 
   .button {
-    font-size: 250%;
+    font-size: 120%;
     padding: 7px 15px;
   }
 
   .form {
-    font-size: 300%;
+    font-size: 150%;
     text-align: center;
   }
 }
